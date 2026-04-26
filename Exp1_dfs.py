@@ -63,4 +63,4 @@ for i in range(n):
 start_node = input("Enter Start Node: ")
 goal_node = input("Enter Goal Node: ")
 path = dfs(graph, start_node, goal_node)
-print(f"Path: {path}")
+print(f"DFS Traversal Path: {path}")

@@ -36,5 +36,5 @@ for i in range(n):
 start_node = input("Enter the starting node: ")
 goal_node = input("Enter goal node: ")
 
-shortest_path = bfs(graph, start_node, goal_node)
-print(f"\nShortest Path: {shortest_path}")
+path = bfs(graph, start_node, goal_node)
+print(f"\nBFS Traversal Path: {path}")
