@@ -3,7 +3,6 @@ import heapq
 def gbfs(graph, start, heuristic, goal):
   visited = set()
   queue = [(heuristic[start], start)] # Priority Queue
-  i = 0
   path = ""
 
   while queue:
